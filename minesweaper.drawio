@@ -7,28 +7,71 @@
         <mxCell id="WfOOoD9RHd-EX-u53SII-0" value="블록 종류&lt;div&gt;- 열린 블록&lt;/div&gt;&lt;div&gt;- 닫힌 블록&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- 일반 블록&lt;/div&gt;&lt;div&gt;- 숫자 블록&lt;/div&gt;&lt;div&gt;- 물음표 블록&lt;/div&gt;&lt;div&gt;- 깃발 블록&lt;/div&gt;&lt;div&gt;지뢰 블록&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="20" y="30" width="110" height="140" as="geometry" />
         </mxCell>
+        <mxCell id="WfOOoD9RHd-EX-u53SII-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WfOOoD9RHd-EX-u53SII-16" target="WfOOoD9RHd-EX-u53SII-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WfOOoD9RHd-EX-u53SII-16" value="게임 시작" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=17;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="280" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WfOOoD9RHd-EX-u53SII-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WfOOoD9RHd-EX-u53SII-17" target="WfOOoD9RHd-EX-u53SII-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WfOOoD9RHd-EX-u53SII-17" value="보드 세팅" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=17;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="280" y="160" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="WfOOoD9RHd-EX-u53SII-18" value="지뢰 세팅" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=17;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="480" y="160" width="120" height="80" as="geometry" />
+        <mxCell id="WfOOoD9RHd-EX-u53SII-18" value="랜덤 위치에&lt;div&gt;지정 갯수만큼&lt;/div&gt;&lt;div&gt;지뢰 놓기&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=17;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="440" y="160" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WfOOoD9RHd-EX-u53SII-19" value="지뢰블록&lt;div&gt;근처 8블록에&lt;/div&gt;&lt;div&gt;숫자 +1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=17;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="640" y="160" width="120" height="80" as="geometry" />
+          <mxGeometry x="600" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WfOOoD9RHd-EX-u53SII-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WfOOoD9RHd-EX-u53SII-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WfOOoD9RHd-EX-u53SII-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WfOOoD9RHd-EX-u53SII-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="360" />
+              <mxPoint x="200" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WfOOoD9RHd-EX-u53SII-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WfOOoD9RHd-EX-u53SII-21" target="WfOOoD9RHd-EX-u53SII-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="360" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="WfOOoD9RHd-EX-u53SII-21" value="블록 선택" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=17;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="280" y="280" width="120" height="80" as="geometry" />
+          <mxGeometry x="280" y="320" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="WfOOoD9RHd-EX-u53SII-26" value="블록 선택 대기" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=17;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="120" y="440" width="120" height="80" as="geometry" />
+        <mxCell id="WfOOoD9RHd-EX-u53SII-47" value="Block" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="10" y="460" width="160" height="178" as="geometry" />
         </mxCell>
-        <mxCell id="WfOOoD9RHd-EX-u53SII-27" value="게임 종료&lt;div&gt;(패배)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=17;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="440" y="440" width="120" height="80" as="geometry" />
+        <mxCell id="WfOOoD9RHd-EX-u53SII-48" value="+ open: boolean&lt;div style=&quot;font-size: 14px;&quot;&gt;+ symbol String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="WfOOoD9RHd-EX-u53SII-47">
+          <mxGeometry y="26" width="160" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="WfOOoD9RHd-EX-u53SII-28" value="블록 오픈" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=17;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="WfOOoD9RHd-EX-u53SII-49" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="WfOOoD9RHd-EX-u53SII-47">
+          <mxGeometry y="90" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="WfOOoD9RHd-EX-u53SII-50" value="+ isOpened() boolean&lt;div style=&quot;font-size: 14px;&quot;&gt;+ getSymbol() String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="WfOOoD9RHd-EX-u53SII-47">
+          <mxGeometry y="98" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WfOOoD9RHd-EX-u53SII-55" value="게임 종료&lt;div&gt;(패배)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=17;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="480" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WfOOoD9RHd-EX-u53SII-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WfOOoD9RHd-EX-u53SII-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="480" />
+              <mxPoint x="200" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WfOOoD9RHd-EX-u53SII-58" value="블록 오픈" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=17;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="280" y="440" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
