@@ -39,7 +39,7 @@
             <mxPoint x="340" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WfOOoD9RHd-EX-u53SII-79" value="일반 or 숫자" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WfOOoD9RHd-EX-u53SII-36">
+        <mxCell id="WfOOoD9RHd-EX-u53SII-79" value="닫힘 &amp;amp;&amp;amp; (일반 or 숫자)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WfOOoD9RHd-EX-u53SII-36">
           <mxGeometry x="-0.605" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
